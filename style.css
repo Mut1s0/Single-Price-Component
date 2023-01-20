@@ -99,6 +99,7 @@ body {
   width: 50%;
   margin: 2rem auto;
   padding-bottom: 0.2rem;
+  overflow: hidden;
  }
 
  /* Header styling */
@@ -177,4 +178,26 @@ body {
 
  h4 {
   font-size: 1.35rem;
+ }
+
+ @media (min-width: 1024px) {
+  .flex__group {
+    display: flex;
+  }
+
+  .courses__offered {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    width: 50%;
+  }
+
+  .monthly__sub {
+    width: 50%;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  main {
+    width: 50%;
+    margin: 10rem auto;
+  }
  }

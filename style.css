@@ -93,8 +93,12 @@ body {
   color: var(--clr-neutral-200);
   font-size: 1rem;
   background-color: var(--clr-neutral-500);
+ }
+
+ main {
   width: 50%;
-  margin: 5rem auto;
+  margin: 2rem auto;
+  padding-bottom: 0.2rem;
  }
 
  /* Header styling */
@@ -153,4 +157,24 @@ body {
   background-color: var(--clr-secondary-200);
   border-radius: 0.25rem;
   padding: 0.5rem;
+ }
+
+
+ /* Why Us Section styling */
+
+ .courses__offered {
+  background-color: var(--clr-primary-500);
+  color: var(--clr-neutral-500);
+  padding: var(--content-padding);
+  margin-bottom: 10rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+ }
+
+ .courses__offered > ul > li {
+  list-style: none;
+ }
+
+ h4 {
+  font-size: 1.35rem;
  }

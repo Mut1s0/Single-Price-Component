@@ -1,0 +1,64 @@
+/* CSS RESETS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+/* 
+  Typography tweaks!
+  - Add accessibilty Line-Height
+  - Improve text rendering
+ */
+
+ body {
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+ }
+
+
+ /* Improve media defaults */
+ img,
+ picture,
+ video,
+ canvas,
+ svg {
+  display: block;
+  max-width: 100%;
+ }
+
+
+
+ /* Remove built in form typography */
+ input,
+ button,
+ textarea,
+ select {
+  font: inherit;
+ }
+
+
+
+ /* Avoid text overflow */
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+  overflow: break-word;
+ }

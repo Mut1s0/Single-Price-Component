@@ -1,3 +1,7 @@
+/* Google fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
 /* Custome Properties */
 :root {
   --clr-primary-500: hsl(179, 62%, 43%);
@@ -6,6 +10,8 @@
 
   --clr-neutral-500: hsl(204, 43%, 93%);
   --clr-neutral-200: hsl(218, 22%, 67%);
+
+  --ff-base: 'Karla', sans-serif;
 
   --fw-bold: 700;
   --fw-regular: 400;

@@ -176,6 +176,10 @@ body {
   list-style: none;
  }
 
+ ul {
+  padding-left: 0;
+ }
+
  h4 {
   font-size: 1.35rem;
  }

@@ -1,5 +1,17 @@
-/* CSS RESETS */
+/* Custome Properties */
+:root {
+  --clr-primary-500: hsl(179, 62%, 43%);
+  --clr-secondary-200: hsl(71, 73%, 54%);
 
+
+  --clr-neutral-500: hsl(204, 43%, 93%);
+  --clr-neutral-200: hsl(218, 22%, 67%);
+
+  --fw-bold: 700;
+  --fw-regular: 400;
+}
+
+/* CSS RESETS */
 *,
 *::before,
 *::after {

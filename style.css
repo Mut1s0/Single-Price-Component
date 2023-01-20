@@ -93,3 +93,25 @@ body {
   width: 50%;
   margin: 5rem auto;
  }
+
+ /* Header styling */
+ .header {
+  background-color: white;
+  padding: 2rem;
+  border-top-right-radius: 0.45rem;
+  border-top-left-radius: 0.45rem;
+ }
+
+ .header__title {
+  color: var(--clr-primary-500);
+  font-size: 1.65rem;
+  font-weight: var(--fw-bold);
+  margin-bottom: 1.5rem;
+ }
+
+ .header__sub__title {
+  color: var(--clr-secondary-200);
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+  font-weight: var(--fw-bold);
+ }
